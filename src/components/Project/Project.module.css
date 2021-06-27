@@ -1,0 +1,38 @@
+.Project {
+  background-color: rgb(53, 56, 50);
+  padding-bottom: 5%;
+  
+}
+
+.Project .Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-around;
+}
+
+.Project .List ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Project .Container img {
+  width: 40%;
+  padding-right: 40%;
+}
+
+.Project .Container .List {
+  flex-basis: 33%;
+  background-color: #1a1819;
+  box-shadow: 0 0 12px 4px white;
+  border-radius: 9px;
+  margin-bottom: 2px;
+}
+
+.Project .List ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
